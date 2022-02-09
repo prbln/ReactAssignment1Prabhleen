@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import UserComponent from './components/UserComponent';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <UserComponent/>
   </React.StrictMode>,
   document.getElementById('root')
 );

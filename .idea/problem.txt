@@ -1,0 +1,25 @@
+Assignment for today:
+1. In Login view,
+use reqres.in/api/login to post the username and password in the required format.
+If you get a success response from the API, only then run the onLoginSuccess function.
+
+--> enter username
+--> enter password
+
+----> send these to AI
+----> check response
+        --> if 200 then loginsuccess
+        --> else failure msg
+-------------------------------------------POST REQUEST
+2. In Projects view,
+use reqres.in/api/users to fetch the users list when the component mounts (use the useEffect hook  here).
+Then update that response to a state variable (use the useState hook here) and
+display it in the cards that we created yesterday.
+
+--> simple card to display 1 user information
+--> display multiple user info
+
+---------------------------------------------GET REQUEST
+
+
+3. Convert regular html elements to reactstrap components
