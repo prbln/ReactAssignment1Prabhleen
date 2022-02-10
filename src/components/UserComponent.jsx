@@ -9,7 +9,6 @@ const UserComponent = ()=> {
             .then(object => setUsers(object.data));
     },[])
     // console.log
-    console.log("API hit",users)
     return (
        users.length && users.map((item)=> {
             return (<UserView item = {item}  />)

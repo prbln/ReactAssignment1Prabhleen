@@ -19,7 +19,7 @@ const {first_name,last_name,email,avatar}=props.item;
                             Some quick example text to build on the card title and make up the bulk of the card's
                             content.
                         </CardText>
-                        <img src={avatar} className="rounded" alt="Cinque Terre">image</img>
+                        <img src={avatar} className="rounded" alt="Cinque Terre"></img>
                     </CardBody>
                 </Card>
             </div>
